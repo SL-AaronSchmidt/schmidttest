@@ -1,0 +1,41 @@
+﻿ body{}
+#Container{
+    width: 600px;
+    height: 800px;
+    margin: 20px auto;
+    position: relative;
+    }
+.prototype_link{
+    border: 1px dotted red; /*<-- this guy gets hidden when the 'invis' class is added to a prototype_link element. */
+    position: absolute;
+    text-indent: -9999px;
+    }
+    /* ---  link positioning / size --- */
+.link1{
+    height: 55px;
+    left: 400px;
+    top: 13px;
+    width: 55px;
+    }
+.link2{
+    height: 55px;
+    left: 460px;
+    top: 13px;
+    width: 55px;
+    }
+.link3{
+    height: 55px;
+    left: 520px;
+    top: 13px;
+    width: 55px;
+    }
+.link4{
+    height: 19px;
+    left: 432px;
+    top: 243px;
+    width: 82px;
+    }
+/* ------------------------- */
+    .invis{
+        border: 0;
+        }

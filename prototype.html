@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Wireframe Prototype</title>
+    <style type="text/css">
+        body{}
+        #Container{
+            width: 600px;
+            height: 800px;
+            margin: 20px auto;
+            position: relative;
+            }
+        .prototype_link{
+            /*border: 1px dotted red; <-- this guy gets hidden when the 'invis' class is added to a prototype_link element. */
+            position: absolute;
+            text-indent: -9999px;
+            }
+        /* ---  link positioning / size --- */
+        .link1{
+            height: 35px;
+            left: 202px;
+            top: 273px;
+            width: 182px;
+            }
+        .link2{
+            height: 35px;
+            left: 202px;
+            top: 323px;
+            width: 182px;
+            }
+        .link3{
+            height: 35px;
+            left: 202px;
+            top: 373px;
+            width: 182px;
+            }
+        /* ------------------------- */
+        .invis{}
+    </style>
+</head>
+<body>
+
+    <div id="Container">
+        <a href="#" class="prototype_link invis link1">link 1</a>
+        <a href="#" class="prototype_link invis link2">link 2</a>
+        <a href="#" class="prototype_link invis link3">link 3</a>
+        <img src="images/prototype.png" />
+    </div>
+
+</body>
+</html>
